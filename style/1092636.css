@@ -1,16 +1,37 @@
+body {
+    /*overflow-x: hidden;
+    position:relative;*/
+	margin:0 auto;
+	width:100%;
+}
+
+p {
+	/*margin: 20px;
+	padding: 20px;*/
+}
+
 h1 {
 	text-align: center;
 	padding: 20px;
 }
 
-p {
-	margin: 20px;
-	padding: 20px;
+header {
+	height:100vh;
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
-#about {
-	background-color: red;
-	color: #FFF;
+#headerphoto {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../images/reinier.png) no-repeat;
+	
 }
 
 #hobbies {
@@ -20,12 +41,24 @@ p {
 	background-color: blue;
 }
 
-.circular {
-	width: 300px;
-	height: 300px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(http://25.media.tumblr.com/tumblr_m5mslyVMOK1qjc1a7o1_500.jpg) no-repeat;
-	margin: auto;
+.container {
+	width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.centerimage {
+	position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
 }
