@@ -1,28 +1,57 @@
 body {
-    /*overflow-x: hidden;
-    position:relative;*/
+    /* Let's get rid of the automatic padding. */
 	margin:0 auto;
+	padding:0;
+	/* Our page needs to be full width. */
 	width:100%;
+	/* This will hide the horizontal scrollbar. */
+	overflow-x: hidden;
+	font-family: 'Ubuntu', serif;
 }
 
 p {
-	/*margin: 20px;
-	padding: 20px;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #DB2929;
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: uppercase;
+	font-weight: 900;
 }
 
 h1 {
 	text-align: center;
-	padding: 20px;
+	font-size: 48px;
+	margin: 0px;
 }
 
 #navigation {
+	/* Let's make sure the navigation bar won't scroll away. */
 	position: fixed;
+	/* We're giving the bar the highest z-index value, so it's always on top of our absolute positioned content and such. */
+	z-index: 100;
 	top: 0;
 	width: 100%;
 	color: #ffffff;
 	height: 35px;
 	text-align: center;
 	padding-top: 15px;
+	padding-bottom: 5.5px;
 	/* Adds shadow to the bottom of the bar */
 	-webkit-box-shadow: 0px 0px 8px 0px #000000;
 	-moz-box-shadow: 0px 0px 8px 0px #000000;
@@ -33,18 +62,20 @@ h1 {
 }
 
 #navigation a {
-	font-size: 14px;
+	font-size: 20px;
+	font-weight: 500;
 	padding-left: 15px;
 	padding-right: 15px;
 	color: white;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 #navigation a:hover {
 	color: grey;
-} 
+}
 
-header {
+#home {
 	height:100vh;
 	background: url(../images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -66,12 +97,13 @@ header {
 #hobbies {
 }
 
-#colors {
-	background-color: blue;
+#wauw {
+	background-color: #1e1f23;
+	color: #ffffff;
 }
 
 .container {
-	width: 1170px;
+	width: 60%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -79,12 +111,12 @@ header {
 }
 
 .row {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .centerimage {
-	position:absolute;
+	position: absolute;
     top:0;
     left:0;
     right:0;
