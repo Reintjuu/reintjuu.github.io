@@ -1,35 +1,25 @@
 body {
-    /* Let's get rid of the automatic padding. */
+	/* Let's get rid of the automatic padding. */
 	margin:0 auto;
 	padding:0;
 	/* Our page needs to be full width. */
 	width:100%;
 	/* This will hide the horizontal scrollbar. */
 	overflow-x: hidden;
+	/* Font settings */
 	font-family: 'Ubuntu', serif;
+	color: #1e1f23;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
 }
 
-p {
-	margin: 0px;
-	padding: 0px;
-}
-
-a,
-a:hover,
-a:focus,
-a:active,
-a.active {
-    outline: 0;
-    color: #DB2929;
+a, a:hover, a:focus, a:active, a.active {
+	outline: 0;
+	color: #DB2929;
 	text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-weight: 900;
 }
@@ -72,26 +62,35 @@ h1 {
 }
 
 #navigation a:hover {
-	color: grey;
+	color: #DB2929;
 }
 
-#home{
+.navigation-offset:before { 
+	display: block;
+	content: " ";
+	/* Navigation bar height offset */
+	height: 75.5px;
+	margin-top: -75.5px;  	
+	visibility: hidden;
+}
+
+#home-section {
 	/* This will make the height of the home section the same as the viewport height. */
 	height: 100vh;
 }
 
-#home .container{
+#home-section .container {
 	background:url(../images/bg.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-    height:100%;
-    width:100%;
-    position:fixed;
-    z-index:-1;
-    top:0;
-    padding:0px;
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:-1;
+	top:0;
+	padding:0px;
 }
 
 #headerphoto {
@@ -103,21 +102,21 @@ h1 {
 	background: url(../images/reinier.png) no-repeat;
 }
 
-#hobbies {
+#hobbies-section {
 	background-color: #ffffff;
 }
 
-#wauw {
+#wauw-section {
 	background-color: #1e1f23;
 	color: #ffffff;
 }
 
 .container {
 	width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .row {
@@ -127,9 +126,9 @@ h1 {
 
 .centerimage {
 	position: absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    margin:auto;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
 }
