@@ -91,6 +91,7 @@ h1 {
     position:fixed;
     z-index:-1;
     top:0;
+    padding:0px;
 }
 
 #headerphoto {
