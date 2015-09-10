@@ -75,22 +75,13 @@ h1 {
 	color: grey;
 }
 
-/*#home {
-	height:100vh;
-	background: url(../images/bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}*/
-
 #home{
 	/* This will make the height of the home section the same as the viewport height. */
 	height: 100vh;
 }
 
 #home .container{
-	background:url('https://raw.githubusercontent.com/Reintjuu/reintjuu.github.io/master/images/bg.jpg') no-repeat center top;
+	background:url(../images/bg.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
