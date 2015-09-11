@@ -22,7 +22,11 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\reinier.png" />
     <Content Include="index.html" />
+    <Content Include="style\main.css" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
