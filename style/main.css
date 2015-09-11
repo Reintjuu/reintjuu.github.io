@@ -1,9 +1,9 @@
 body {
 	/* Let's get rid of the automatic padding. */
-	margin:0 auto;
-	padding:0;
+	margin: 0 auto;
+	padding: 0;
 	/* Our page needs to be full width. */
-	width:100%;
+	width: 100%;
 	/* This will hide the horizontal scrollbar. */
 	overflow-x: hidden;
 	/* Font settings */
@@ -51,26 +51,26 @@ h1 {
 	color: rgba(1, 1, 1, 0.8);
 }
 
-#navigation a {
-	font-size: 20px;
-	font-weight: 500;
-	padding-left: 15px;
-	padding-right: 15px;
-	color: white;
-	text-decoration: none;
-	text-transform: uppercase;
-}
+	#navigation a {
+		font-size: 20px;
+		font-weight: 500;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
 
-#navigation a:hover {
-	color: #DB2929;
-}
+		#navigation a:hover {
+			color: #DB2929;
+		}
 
-.navigation-offset:before { 
+.navigation-offset:before {
 	display: block;
 	content: " ";
 	/* Navigation bar height offset */
 	height: 75.5px;
-	margin-top: -75.5px;  	
+	margin-top: -75.5px;
 	visibility: hidden;
 }
 
@@ -79,19 +79,19 @@ h1 {
 	height: 100vh;
 }
 
-#home-section .container {
-	background:url(../images/bg.jpg) no-repeat center top;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	height:100%;
-	width:100%;
-	position:fixed;
-	z-index:-1;
-	top:0;
-	padding:0px;
-}
+	#home-section .container {
+		background: url(../images/bg.jpg) no-repeat center top;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		z-index: -1;
+		top: 0;
+		padding: 0px;
+	}
 
 #headerphoto {
 	width: 300px;
@@ -126,9 +126,9 @@ h1 {
 
 .centerimage {
 	position: absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	margin:auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
 }
