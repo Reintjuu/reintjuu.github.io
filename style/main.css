@@ -111,6 +111,13 @@ h1 {
 	color: #ffffff;
 }
 
+footer {
+	background-color: #151618;
+	text-align: center;
+	color: #ffffff;
+	bottom:0;
+}
+
 .container {
 	width: 60%;
 	margin-right: auto;
