@@ -4,6 +4,10 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 pagination.pagerSize = 10
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params]
   dateform = "Jan 2, 2006"
   dateformShort = "Jan 2"
