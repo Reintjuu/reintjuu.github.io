@@ -17,6 +17,7 @@ pagination.pagerSize = 10
   homeSubtitle = "How to center a div?"
 
   disableReadOtherPosts = false
+  enableThemeToggle = true
   enableSharingButtons = true
   enableGlobalLanguageMenu = false
 
